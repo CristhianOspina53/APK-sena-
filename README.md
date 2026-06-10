@@ -99,7 +99,7 @@ Espera a que Gradle descargue las dependencias (requiere internet).
 En `apkSENA/app/src/main/java/co/edu/sena/network/ApiService.java`:
 
 ```java
-private static final String BASE_URL = "http://192.168.0.21/api/senaUsuario";
+private static final String BASE_URL = "http://192.168.xxx.xxx/api/senaUsuario";
 ```
 
 ### 3. Ajustar la configuración de red
@@ -108,11 +108,11 @@ En `apkSENA/app/src/main/res/xml/network_security_config.xml`:
 
 ```xml
 <domain-config cleartextTrafficPermitted="true">
-    <domain includeSubdomains="false">192.168.0.21</domain>
+    <domain includeSubdomains="false">192.168.xxx.xxx</domain>
 </domain-config>
 ```
 
-> Cambia `192.168.0.21` por la IP real de tu servidor en ambos archivos.
+> Cambia `192.168.xxx.xxx` por la IP real de tu servidor en ambos archivos.
 
 ### 4. Ejecutar
 
@@ -160,7 +160,7 @@ app/src/main/java/co/edu/sena/
 
 ## Endpoints del API
 
-URL base: `http://192.168.0.21/api/senaUsuario`
+URL base: `http://192.168.xxx.xxx/api/senaUsuario`
 
 | Método | Endpoint | Descripción |
 |--------|----------|-------------|
