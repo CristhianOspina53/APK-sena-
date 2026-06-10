@@ -82,7 +82,7 @@ senaUsuario/
 
 ## Endpoints
 
-URL base: `http://192.168.0.21/api/senaUsuario`
+URL base: `http://192.168.xxx.xxx/api/senaUsuario`
 
 | Método   | Endpoint              | Descripción          | Auth |
 |----------|-----------------------|----------------------|------|
