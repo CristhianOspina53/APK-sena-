@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sena_green">#39A900</color>
+    <color name="sena_green_dark">#2d8400</color>
+    <color name="sena_green_light">#e8f5e0</color>
+    <color name="sena_blue">#003087</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="gray_medium">#9E9E9E</color>
+    <color name="error_red">#D32F2F</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="background">#F8F9FA</color>
+</resources>
